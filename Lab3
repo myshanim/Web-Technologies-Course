@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Coding Club</title>
+
+    <link rel="icon" href="images.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+
+    <header id="home">
+        <h1>University Coding Club</h1>
+        <p>Learn, Code, Collaborate, and Innovate!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#registration">Registration</a>
+    </nav>
+
+    <main>
+        <section id="about" class="about">
+            <h2>About Our Club</h2>
+
+            <img
+                src="images.jpeg"
+                alt="University Coding Club logo"
+            >
+
+            <p>
+                The University Coding Club is a community for students
+                who love programming, problem-solving, and technology.
+                We organize coding workshops, programming contests,
+                and collaborative projects to help students improve
+                their technical skills.
+            </p>
+        </section>
+
+        <section id="schedule" class="schedule">
+            <h2>Weekly Club Schedule</h2>
+
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+
+                <tr>
+                    <td>Sunday</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                    <td>Programming Basics</td>
+                </tr>
+
+                <tr>
+                    <td>Tuesday</td>
+                    <td>2:00 PM - 4:00 PM</td>
+                    <td>Data Structures</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Thursday</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                    <td>Competitive Programming</td>
+                </tr>
+
+                <tr>
+                    <td>2:00 PM - 3:00 PM</td>
+                    <td>Project Discussion</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Saturday</td>
+                    <td>Online Coding Practice</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="registration" class="registration">
+            <h2>Join Our Coding Club</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Student Registration Form</legend>
+
+                    <label for="name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                    <label for="email">Email Address:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                    >
+
+                    <p>Gender:</p>
+
+                    <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"
+                    >
+                    <label for="male" class="inline-label">Male</label>
+
+                    <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                    >
+                    <label for="female" class="inline-label">Female</label>
+
+                    <input
+                        type="radio"
+                        id="other"
+                        name="gender"
+                        value="other"
+                    >
+                    <label for="other" class="inline-label">Other</label>
+
+                    <label for="department">Department:</label>
+                    <select id="department" name="department">
+                        <option value="">Select your department</option>
+                        <option value="cse">Computer Science and Engineering</option>
+                        <option value="eee">Electrical and Electronic Engineering</option>
+                        <option value="bba">Business Administration</option>
+                        <option value="civil">Civil Engineering</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <div class="form-buttons">
+                        <button type="submit">Register</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Visit our university:
+            <a
+                href="https://www.aiub.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                University Website
+            </a>
+        </p>
+
+        <p>&copy; 2026 University Coding Club. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
